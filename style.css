@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header b{
+    margin-top: 30px;
+}
+
+body{
+    background-color: rgb(240, 255, 254);
+}
+header{
+    display: flex;
+    
+}
+header nav ul{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10rem; 
+}
+header nav div{
+    justify-content: space-around;
+}
+header nav ul li a{
+    list-style: none;
+    text-decoration: none;
+    
+}
+header nav ul li{
+   margin: 10%;
+   align-items: center;
+   
+}
+.virtual{
+    display: inline;
+}
+header img{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 5rem;
+    margin: 5px;
+}
+.lupa{
+    display: inline;
+}
+header{
+    background-color: aquamarine;
+}
+header ul{
+    list-style: none;
+}
+.subtitulo{
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+.ingresar{
+    color: white;
+   
+     
+}
+/* Estilos del footer */
+
+footer {
+    background-color:#90ee90;
+}
+footer ul {
+    list-style: none;
+}
+footer{
+    color:white;
+}
+/* Tamaño imágenes en carrusel */
+
+#Carrusel{
+    width: 90%;
+    height: 300px;
+}
+/* Estilo de Parrafos */
+
+p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12px;
+    color:black;
+}
+/* Botones */
+
+.Boton{
+    background-color: blue;
+    color: white;
+    font-size: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.Boton-p{
+    background-color: blue;
+    color: white;
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.boton-buscar{
+    color: white;
+    background-color: blue;
+    text-decoration: none;
+    padding: 3px 5px;
+    border-radius: 3px;
+    margin-right: 10px;
+    font-size: 15px;
+
+
+}
+
+
+/*Imagénes Nosotros - Productos - Contacto*/
+.trabajando-1{
+    width: 30%;
+    height: 30%;
+}
+.trabajando-2{
+    width: 20%;
+    height: 20%;
+}
+.dudando{
+    width: 45%;
+    height: 45%;
+}
+.producto{
+    width: 5%;
+    height: 5%;
+}
+.imagen-contacto{
+    width: 20%;
+    height: 250px;
+}
+/*Descargas*/
+.descargas{
+    list-style: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12px;
+    background-color: aquamarine;
+}
+/*Productos*/
+h3{
+    font-size: 12px;
+    font-family: 'Courier New', Courier, monospace;
+    color: green;
+}
+/*Cursos*/
+.curso-1{
+    background-color: rgb(0, 153, 255);
+    color: rgb(255, 255, 255);
+    font-family: 'Courier New', Courier, monospace;
+    width: 30%; 
+    height: 200px;
+    font-size: 25px;
+}
+/*Formularios*/
+.observaciones{
+    size: 20%;
+}
+
+.videos-inicio{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.videos-inicio iframe{
+    width: 20rem;
+    height: 20rem;
+    margin: 20px;
+    
+
+}
+.parrafos-informativos{
+    display: inline;
+    size: 20rem;
+}
