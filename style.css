@@ -9,27 +9,8 @@ header b{
 body{
     background-color: rgb(240, 255, 254);
 }
-header{
-    display: flex;
-    
-}
-header nav ul{
-    display: flex;
-    justify-content: space-between;
-    margin-left: 10rem; 
-}
-header nav div{
-    justify-content: space-around;
-}
-header nav ul li a{
-    list-style: none;
-    text-decoration: none;
-    
-}
-header nav ul li{
-   margin: 10%;
-   align-items: center;
-   
+h2{
+    background-color: aquamarine;
 }
 .virtual{
     display: inline;
@@ -40,37 +21,39 @@ header img{
     border-radius: 5rem;
     margin: 5px;
 }
-.lupa{
-    display: inline;
-}
 header{
     background-color: aquamarine;
 }
-header ul{
-    list-style: none;
+/*Navbar personal*/
+.nav-bar-personal{
+    background-color: aquamarine !important;
+
 }
+
 .subtitulo{
-    font-size: 15px;
-    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-family: 'Lumanosimo', cursive;
+    justify-content: center;
+    text-align: center;
     
-}
-.ingresar{
-    color: white;
-    text-decoration: none;
-    align-items: center;
-   
-     
-}
+    
+    
+}  
+
 /* Estilos del footer */
 
 footer {
-    background-color:#90ee90;
+    background-color: aquamarine;
 }
 footer ul {
     list-style: none;
 }
-footer{
-    color:white;
+footer ul li a{
+    color: black;
+    text-decoration: none;
+}
+.celular{
+    display: inline;
 }
 /* Tamaño imágenes en carrusel */
 
