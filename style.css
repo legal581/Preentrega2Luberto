@@ -39,28 +39,44 @@ header{
     
     
 }  
+h5{
+    font-size: 35px;
+    font-family: 'Lumanosimo', cursive;
+    color: black;
+}
+.notas{
+    font-size: 20px !important;
+    font-family: 'Lumanosimo', cursive !important;
+    color: black !important;
+}
 
 /* Estilos del footer */
 
 footer {
+    display: flex;
     background-color: aquamarine;
+    align-items: center;
+    justify-content: center;
+}
+footer ul li{
+    margin: 0 30px;
 }
 footer ul {
     list-style: none;
+    display: flex;
 }
 footer ul li a{
     color: black;
     text-decoration: none;
 }
-.celular{
-    display: inline;
-}
+
 /* Tamaño imágenes en carrusel */
 
 #Carrusel{
     width: 90%;
     height: 300px;
 }
+
 /* Estilo de Parrafos */
 
 p{
@@ -93,7 +109,18 @@ p{
 
 
 }
-
+.card-personal{
+    margin-top: 10px !important;
+}
+.videos-inicio{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    border: 2px solid black ; 
+    
+}
+.videosindex{
+    border: 2px solid red;
+}
 
 /*Imagénes Nosotros - Productos - Contacto*/
 .trabajando-1{
@@ -143,7 +170,7 @@ h3{
     size: 20%;
 }
 
-.videos-inicio{
+/* .videos-inicio{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -158,4 +185,4 @@ h3{
 .parrafos-informativos{
     display: inline;
     size: 20rem;
-}
+} */
