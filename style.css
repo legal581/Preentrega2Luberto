@@ -122,7 +122,12 @@ p{
     border: 2px solid red;
 }
 
-/*Imagénes Nosotros - Productos - Contacto*/
+/*Nosotros - Productos - Contacto*/
+.quienes{
+    font-family:'Lumanosimo', cursive;
+    background-color: #f0fffe !important;
+
+}
 .trabajando-1{
     width: 30%;
     height: 30%;
@@ -170,19 +175,3 @@ h3{
     size: 20%;
 }
 
-/* .videos-inicio{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-.videos-inicio iframe{
-    width: 20rem;
-    height: 20rem;
-    margin: 20px;
-    
-
-}
-.parrafos-informativos{
-    display: inline;
-    size: 20rem;
-} */
